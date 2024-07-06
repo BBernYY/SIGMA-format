@@ -54,7 +54,7 @@ def from_sigma(name):
     img = img.transpose(Image.FLIP_LEFT_RIGHT)
     img.save(path.splitext(name)[0]+'_out.jpg')
 NAME = "assets\\biden.png"
-# with open(path.splitext(NAME)[0]+".sigma", 'w') as f:
-#     out = to_sigma(NAME)
-#     f.write(out)
+with open(path.splitext(NAME)[0]+".sigma", 'w') as f:
+    out = to_sigma(NAME)
+    f.write(out)
 from_sigma(path.splitext(NAME)[0]+".sigma")
