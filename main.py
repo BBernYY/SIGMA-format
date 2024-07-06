@@ -12,7 +12,7 @@ def println(*data):
         print(*data)
 def closest(color):
     r, g, b = color
-    return c.colors[pixel_map[g*256+b,r]]
+    return c.colors[pixel_map[(r-r%16)//16+b*16,r%16+g*16]]
 
 
 def to_sigma(name, effects=None):
@@ -58,8 +58,8 @@ def increase_saturation(img):
     converter = ImageEnhance.Color(img)
     return converter.enhance(1)
 
-LOG = False
-STEP = 10
+LOG = True
+STEP = 100
 NAME = "assets\\biden.png"
 with open(path.splitext(NAME)[0]+".sigma", 'w') as f:
     for i in to_sigma(NAME, increase_saturation):
