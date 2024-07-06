@@ -22,14 +22,14 @@ There are to functions to use: `from_sigma()` and `to_sigma()`
 
 ### Example:
 ```
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
-red	red	red	red	red	red	red	red	                blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
+red	red	red	red	red	red	red	red	  blue	blue	blue	blue	blue	blue	blue	blue
 lime	lime	lime	lime	lime	lime	lime	lime	yellow	yellow	yellow	yellow	yellow	yellow	yellow	yellow
 lime	lime	lime	lime	lime	lime	lime	lime	yellow	yellow	yellow	yellow	yellow	yellow	yellow	yellow
 lime	lime	lime	lime	lime	lime	lime	lime	yellow	yellow	yellow	yellow	yellow	yellow	yellow	yellow
