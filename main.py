@@ -63,5 +63,5 @@ STEP = 10
 NAME = "assets\\biden.png"
 with open(path.splitext(NAME)[0]+".sigma", 'w') as f:
     for i in to_sigma(NAME, increase_saturation):
-        f.write(i+"\n")
+        f.write(i)
 from_sigma(path.splitext(NAME)[0]+".sigma")
