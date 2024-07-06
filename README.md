@@ -3,7 +3,7 @@ Stands for:
 - **S**uper
 - **I**mage
 - **G**raphics
-- **M**emory (for)
+- **M**emory
 - **A**llocation
 > Sigma is a highly-intuitive very lossy yet heavy image storage filetype!
 ## Why use SIGMA
